@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
+
+*{
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+html,body{
+	width:100%;
+	height:100%;
+	background:#262626;
+}
+#input,#output{
+	float:left;
+	border:solid 0.4vh red;
+
+	width:49%;
+	height:99%;
+	background:#262626;
+	color:#afafaf;
+
+	font-family:'Anonymous Pro';
+	font-size:4vw;
+}
+#input:focus{
+	outline:0;
+}
+#convert{
+	position:absolute;
+	left:40vw;
+	top:90vh;
+	width:10%;
+	height:10%;
+	background:#262626;
+	color:#afafaf;
+	border:solid 0.4vh red;
+}
+#convert:focus{
+	outline:0;
+}
